@@ -55,7 +55,7 @@ Inspired by discipline, focus, and the philosophy of **ISKCON**.
 ---
 
 ### 📄 Resume
-[📥 View My Resume (PDF)](./Prashant_Chandra_Resume.pdf)
+[📥 View My Resume (PDF)](./Resume.pdf)
 
 ---
 
