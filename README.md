@@ -1,69 +1,93 @@
-# 👋 Hi, I'm Prashant Chandra
+<!-- 👋 Hi, I'm Prashant Chandra -->
 
-🎓 **B.Tech in Computer Engineering @ Aligarh Muslim University (2023–2027)**  
-💡 **AI-Powered Full Stack Developer | MERN + AI/ML Enthusiast**  
-🚀 Passionate about building intelligent, scalable, and human-centered web applications.
-
----
-
-### 🧠 About Me
-I'm a developer who loves merging **AI** with **Full Stack Development** to create smart digital experiences.  
-Currently working on **FitTrack+ AI** — a fitness and nutrition platform powered by computer vision and machine learning.  
-Inspired by discipline, focus, and the philosophy of **ISKCON**.
+<h1 align="center">👋 Hey, I'm <b>Prashant Chandra</b></h1>
+<h3 align="center">🚀 AI-Powered Full Stack Developer | B.Tech CSE @ AMU</h3>
+<p align="center">
+  <a href="mailto:prashant.chandra.aligarh@gmail.com"><img src="https://img.shields.io/badge/Email-prashant.chandra.aligarh%40gmail.com-blue?logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/prashant-chandra-"><img src="https://img.shields.io/badge/LinkedIn-Prashant%20Chandra-blue?logo=linkedin"></a>
+  <a href="https://github.com/Chandra-Prashant"><img src="https://img.shields.io/badge/GitHub-Chandra--Prashant-black?logo=github"></a>
+</p>
 
 ---
 
-### 💻 Tech Stack
-**Languages:** Python, JavaScript (ES6+), C++, SQL  
-**Frontend:** Next.js, React.js, Tailwind CSS  
-**Backend:** Node.js, Express.js, FastAPI  
-**Databases:** MongoDB, MySQL  
-**AI / ML:** OpenCV, scikit-learn, PyTorch, TensorFlow, Hugging Face  
-**DevOps / Tools:** Git, GitHub, Vercel, Render, Anaconda, VS Code  
-**Concepts:** RESTful APIs, OOP, DSA, Agile Development  
+## 🧠 About Me
+💡 I’m a 3rd-year **B.Tech Computer Engineering** student at **Aligarh Muslim University (AMU)**,  
+passionate about building intelligent and scalable **AI-powered web applications**.  
+Currently developing **FitTrack+ AI** — a smart fitness & nutrition platform integrating ML and computer vision.  
+
+> “Code. Learn. Build. Repeat.” — My development mantra 💻  
 
 ---
 
-### 🧩 Featured Projects
+## 🛠️ Tech Stack
 
-#### 🏋️ FitTrack+ AI — AI-Powered Fitness and Nutrition Platform
-- Integrated ML and computer vision for real-time workout and nutrition tracking.  
-- Achieved **92% accuracy** in rep-count detection using MoveNet.  
-- Tech Stack: Next.js, Node.js, FastAPI, MongoDB, PyTorch  
-- 🌐 [Live Demo](https://fittrack-monorepo.vercel.app) | 💻 [GitHub Repo](https://github.com/Chandra-Prashant/fittrack-monorepo)
-
-#### 👁️ Face Recognition Attendance System
-- Built a face recognition system using **Python + OpenCV (LBPH)**.  
-- CRUD student management and local secure logging.  
-- 🔗 [GitHub Repo](https://github.com/Chandra-Prashant/FaceAttendance)
-
----
-
-### 🎓 Education
-- **B.Tech (Computer Engineering)** — Aligarh Muslim University (2023–2027)  
-  CGPA: 7.89  
-- **Diploma in Computer Engineering** — AMU (2020–2023)  
-  CGPA: 9.66 *(College Topper)*  
-- **CBSE (10th)** — 97% *(District Topper)*  
+| **Category** | **Technologies** |
+|---------------|------------------|
+| **Languages** | Python, JavaScript (ES6+), C++, SQL |
+| **Frontend** | Next.js, React.js, Tailwind CSS |
+| **Backend** | Node.js, Express.js, FastAPI |
+| **Databases** | MongoDB, MySQL |
+| **AI / ML** | OpenCV, scikit-learn, PyTorch, TensorFlow, Hugging Face |
+| **DevOps / Tools** | Git, GitHub, Vercel, Render, Anaconda, VS Code |
+| **Core Concepts** | REST APIs, OOP, DSA, Agile Development |
 
 ---
 
-### 🏅 Certifications
-- **Full Stack Web Development (MERN)** — [Simplilearn](https://simpli-web.app.link/e/V0c2gCUVaYb)  
-- **AI in the Real World** — [upGrad](https://upgrad.certificate.givemycertificate.com/c/80dd91f4-b28f-46bc-a641-db02d74e32b2)
+## 🚀 Featured Projects
+
+### 🏋️ [FitTrack+ AI](https://github.com/Chandra-Prashant/fittrack-monorepo)
+> **AI-Powered Fitness & Nutrition Platform**
+
+- Real-time workout tracking using **MoveNet** (92% accuracy).  
+- Integrated ML and computer vision for rep counting and food recognition.  
+- Stack: Next.js, Node.js, FastAPI, MongoDB, PyTorch  
+- 🌐 [Live Demo](https://fittrack-monorepo.vercel.app)
 
 ---
 
-### 📄 Resume
-[📥 View My Resume (PDF)](./Resume.pdf)
+### 👁️ [Face Recognition Attendance System](https://github.com/Chandra-Prashant/FaceAttendance)
+> **Smart Attendance Using Computer Vision**
+
+- Built with **Python + OpenCV (LBPH)**  
+- CRUD student management + secure local database  
+- Optimized for varying lighting and angles  
 
 ---
 
-### 🌐 Connect with Me
-- 💻 [GitHub](https://github.com/Chandra-Prashant)  
-- 🔗 [LinkedIn](https://linkedin.com/in/prashant-chandra-)  
-- ✉️ [prashant.chandra.aligarh@gmail.com](mailto:prashant.chandra.aligarh@gmail.com)
+## 🎓 Education
+
+🎓 **B.Tech, Computer Engineering** — Aligarh Muslim University (2023–2027)  
+CGPA: **7.89**
+
+🎓 **Diploma in Computer Engineering** — AMU (2020–2023)  
+CGPA: **9.66** _(College Topper)_
+
+🏆 **CBSE (10th)** — 97% _(District Topper)_
 
 ---
 
-⭐ _"Code. Learn. Build. Repeat."_  
+## 🏅 Certifications
+
+- 🎓 [Full Stack Web Development (MERN) – Simplilearn](https://simpli-web.app.link/e/V0c2gCUVaYb)  
+- 🤖 [AI in the Real World – upGrad](https://upgrad.certificate.givemycertificate.com/c/80dd91f4-b28f-46bc-a641-db02d74e32b2)
+
+---
+
+## 📄 Resume
+📥 [**View My Resume (PDF)**](./Resume.pdf)  
+
+---
+
+## 🌐 Connect With Me
+<p align="center">
+  <a href="mailto:prashant.chandra.aligarh@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/prashant-chandra-"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/Chandra-Prashant"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+---
+
+<p align="center">
+  <i>“Every great developer you know was once a beginner who never gave up.”</i><br/>
+  ⭐️ From <b>@Chandra-Prashant</b>
+</p>
