@@ -74,7 +74,7 @@ CGPA: **9.66** _(College Topper)_
 ---
 
 ## 📄 Resume
-📥 [**View My Resume (PDF)**](./My Resume(2025).pdf)  
+📥 [**View My Resume (PDF)**](./MyResume(2025).pdf)  
 
 ---
 
