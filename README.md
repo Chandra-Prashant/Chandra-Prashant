@@ -54,6 +54,17 @@ Currently developing **FitTrack+ AI** — a smart fitness & nutrition platform i
 
 ---
 
+### 🧠 [Explainable AI (XAI) Fraud Detection System](https://github.com/Chandra-Prashant/xai-fraud-detection)
+> **Real-Time Fraud Detection With SHAP-Based Explainability**
+
+- Detects fraud in real-time with **Random Forest + MLP challenger model**.  
+- Integrated SHAP engine for transparent, feature-level explanations.  
+- Microservices setup with Next.js (frontend) + FastAPI (backend) + Docker.
+- Fully deployed: **Vercel (frontend) • Render (backend)**
+- 🌐 [Live Demo](https://xai-fraud-detection.vercel.app)
+
+---
+
 ## 🎓 Education
 
 🎓 **B.Tech, Computer Engineering** — Aligarh Muslim University (2023–2027)  
