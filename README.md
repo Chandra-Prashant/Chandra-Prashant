@@ -23,7 +23,7 @@
   <p align="center">
     <a href="mailto:prashant.chandra.aligarh@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://linkedin.com/in/prashant-chandra-" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="[https://my-portfolio.vercel.app](https://my-portfolio-topaz-three-zzk5gechtc.vercel.app)" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-Visit%20Website-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://my-portfolio-topaz-three-zzk5gechtc.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-Visit%20Website-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   </p>
 </div>
 
