@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/District%20Topper-97%25-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="District Topper" />
     </a>
     <a href="https://www.linkedin.com/in/prashant-chandra-/">
-        <img src="https://img.shields.io/badge/College%20Rank-01-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="College Topper" />
+        <img src="https://img.shields.io/badge/College%20Rank-01-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Diploma College Topper" />
     </a>
   </p>
 
@@ -33,7 +33,7 @@
 
 I am a **3rd-year Computer Engineering Undergraduate** specializing in **AI-Integrated Microservices**. Unlike standard developers, I don't just build wrappers; I engineer **Hybrid Architectures** that combine Python's heavy computation (PyTorch/CNNs) with Node.js/Next.js scalability.
 
-- 🔭 I’m currently building **MediSight**, an Explainable AI diagnostic tool for doctors.
+- 🔭 I have recently built **MediSight**, an Explainable AI diagnostic tool for doctors.
 - 👯 I’m looking to collaborate on **Computer Vision** and **SaaS Architecture** projects.
 - ⚡ **Mantra:** *"Code. Learn. Build. Repeat."*
 
