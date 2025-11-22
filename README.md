@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/District%20Topper-97%25-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="District Topper" />
     </a>
     <a href="https://www.linkedin.com/in/prashant-chandra-/">
-        <img src="https://img.shields.io/badge/College%20Rank-01-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Diploma College Topper" />
+        <img src="https://img.shields.io/badge/Diploma%20Rank-01-gold?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Diploma College Topper" />
     </a>
   </p>
 
