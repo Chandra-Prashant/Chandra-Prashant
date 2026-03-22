@@ -6,7 +6,7 @@
 ### 🏛 Academic Foundation
 - **University:** Aligarh Muslim University (AMU), India
 - **Academic Standing:** 🥇 Diploma Rank 1 (College Topper) | District Topper (97%)
-- **Research Focus:** Explainable AI (XAI), Computer Vision, & Model Deployment for MS in Germany (2027).
+- **Research Focus:** Explainable AI (XAI), Computer Vision, & Model Deployment for MS (2027).
 
 ---
 
