@@ -5,7 +5,7 @@
 *Focus: Applied Agentic AI, Tool Governance, Decoupled Deep Learning Architectures, & Local RAG Systems*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/prashant-chandra-)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://prashantchandra.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://prashant-chandra.vercel.app)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:prashant.chandra.aligarh@gmail.com)
 
 ---
