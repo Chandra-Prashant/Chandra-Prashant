@@ -22,15 +22,15 @@
 
 ### 🔬 Active Research Internships
 
-* 🎓 **RV University (Remote)** — *Research Intern*
-  * Engineering zero-cloud local RAG pipelines (Qdrant, Ollama/Mistral-7B) for automated security report generation.
-  * Building NetworkX-based Graph Causal Engines to reduce OS telemetry log volume by >80% while preserving causal lineage.
-
-* 🔬 **MANIT Bhopal** — *Research Intern*
+* 🔬 **MANIT Bhopal** — *Research Intern* (Jun. 2026, On-site)
   * Designed a ~118K-parameter decoupled denoising and cross-modal fusion pipeline achieving **29.85 dB PSNR**, **0.99 SSIM**, and **237 FPS** inference (measured directly from the notebook's evaluation run - see `Lightweight-Multispectral-Image-Fusion`).
   * Formulated an Inverse-Attention Gating Mask to bypass sensor degradation on the MSRS dataset.
 
-* 🧠 **Bodhi Hub** — *AI Intern* (Aug. – Sep. 2026)
+* 🎓 **RV University** — *Research Intern* (Jun. – Jul. 2026, Remote)
+  * Engineering zero-cloud local RAG pipelines (Qdrant, Ollama/Mistral-7B) for automated security report generation.
+  * Building NetworkX-based Graph Causal Engines to reduce OS telemetry log volume by >80% while preserving causal lineage.
+
+* 🧠 **Bodhi Hub** — *AI Intern* (Aug. – Sep. 2026, Hybrid)
   * Built the anti-hallucination architecture for an LLM-driven Verra VCS v5.0 audit-automation engine: all regulated numeric calculation lives in an isolated, AI-free domain layer, extraction output is schema-guarded against every value the engine computes, and generated narrative text is rejected outright if it contains a digit.
   * Shipped with 956 backend and 51 frontend tests passing, including a RAG index that strips quantities before indexing so there's nothing for the model to copy from a past client report.
 
@@ -74,6 +74,11 @@
 * PR creation is gated behind explicit human approval — a passing patch never ships itself.
 * **Stack:** Python, LangGraph, tree-sitter, ChromaDB, Docker, FastAPI.
 
+#### 👤 [Face Bias Study](https://github.com/Chandra-Prashant/face-bais-study)
+*A 52,500-trial fairness audit — accepted at IC3AI 2026 (NIT Jalandhar).*
+* Three face-verification models across 14 intersectional demographic cohorts under five image stressors; a two-way ANOVA confirms a statistically significant cohort × stressor interaction, with VGG-Face's true positive rate collapsing to 2.4% for one cohort under eye occlusion.
+* **Stack:** Python, DeepFace, statsmodels, Grad-CAM.
+
 #### 🌡️ [Lightweight Multispectral Image Fusion](https://github.com/Chandra-Prashant/Lightweight-Multispectral-Image-Fusion)
 *A 117.5K-parameter decoupled denoising + fusion network — the basis for the NPDSM 2026 (Springer LNME) paper.*
 * An inverse-attention gating layer down-weights thermal features exactly where a noise map says the sensor was least reliable.
@@ -84,11 +89,6 @@
 *Local, LLM-assisted malware triage — the RV University internship work.*
 * NetworkX causal-graph filtering prunes OS noise from a sandbox log's process tree before anything gets indexed into a local Qdrant store; a local Mistral-7B (Ollama) drafts the triage report, and a hallucination auditor blocks the PDF export if it cites a process that isn't actually in the log.
 * **Stack:** Python, NetworkX, Qdrant, Ollama, Streamlit.
-
-#### 👤 [Face Bias Study](https://github.com/Chandra-Prashant/face-bais-study)
-*A 52,500-trial fairness audit — accepted at IC3AI 2026 (NIT Jalandhar).*
-* Three face-verification models across 14 intersectional demographic cohorts under five image stressors; a two-way ANOVA confirms a statistically significant cohort × stressor interaction, with VGG-Face's true positive rate collapsing to 2.4% for one cohort under eye occlusion.
-* **Stack:** Python, DeepFace, statsmodels, Grad-CAM.
 
 ---
 
