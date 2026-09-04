@@ -26,7 +26,7 @@
   * Building NetworkX-based Graph Causal Engines to reduce OS telemetry log volume by >80% while preserving causal lineage.
 
 * 🔬 **MANIT Bhopal** — *Research Intern*
-  * Designed a ~118K-parameter decoupled denoising and cross-modal fusion pipeline achieving **31 dB PSNR**, **0.99 SSIM**, and **238 FPS** inference.
+  * Designed a ~118K-parameter decoupled denoising and cross-modal fusion pipeline achieving **29.85 dB PSNR**, **0.99 SSIM**, and **237 FPS** inference (measured directly from the notebook's evaluation run - see `Lightweight-Multispectral-Image-Fusion`).
   * Formulated an Inverse-Attention Gating Mask to bypass sensor degradation on the MSRS dataset.
 
 ---
