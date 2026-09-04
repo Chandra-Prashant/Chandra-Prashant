@@ -30,12 +30,16 @@
   * Designed a ~118K-parameter decoupled denoising and cross-modal fusion pipeline achieving **29.85 dB PSNR**, **0.99 SSIM**, and **237 FPS** inference (measured directly from the notebook's evaluation run - see `Lightweight-Multispectral-Image-Fusion`).
   * Formulated an Inverse-Attention Gating Mask to bypass sensor degradation on the MSRS dataset.
 
+* 🧠 **Bodhi Hub** — *AI Intern* (Aug. – Sep. 2026)
+  * Built the anti-hallucination architecture for an LLM-driven Verra VCS v5.0 audit-automation engine: all regulated numeric calculation lives in an isolated, AI-free domain layer, extraction output is schema-guarded against every value the engine computes, and generated narrative text is rejected outright if it contains a digit.
+  * Shipped with 956 backend and 51 frontend tests passing, including a RAG index that strips quantities before indexing so there's nothing for the model to copy from a past client report.
+
 ---
 
 ### 📄 Publications & Manuscripts
 
 1. **Decoupled Dual-Phase Network for Multispectral Image Fusion under Sensor Degradation**
-   * *Venue:* NPDSM 2026 (MANIT Bhopal), **Springer** Lecture Notes in Mechanical Engineering (LNME). *(Published)*
+   * *Venue:* NPDSM 2026 (MANIT Bhopal), **Springer** Lecture Notes in Mechanical Engineering (LNME) — selected & presented June 26, 2026. *(Published)*
 2. **Robustness-Fairness Gap in Facial Recognition Architectures Under Stressors**
    * *Venue:* **IC3AI 2026**, NIT Jalandhar (18–19 December) — evaluating 52.5K matching trials across demographic and geometric resilience boundaries. *(Accepted)*
 3. **A Selective Classification Framework for High-Reliability Anomaly Detection in Satellite Telemetry**
@@ -58,39 +62,41 @@
 
 ### 🚀 Featured Repositories
 
-#### 🛡️ [Autonomous Agent Governance Harness](https://github.com/Chandra-Prashant/agent-governance-harness)
-*Runtime interceptor for supervising autonomous LLM tool usage in real time.*
-* Implemented a `shlex`-based shell-command tokenizer to neutralize injection/path-traversal vectors.
-* Feed policy-violation metadata back into the model loop for dynamic self-correction; fully verified via `pytest`.
-* **Stack:** Python, Google GenAI SDK (Gemini 2.5), NetworkX, pytest, shlex.
+#### 🧠 [Bodhi Hub: Verifiable Audit Automation](https://github.com/Chandra-Prashant/bodhi-hub-vcs5)
+*LLM-driven carbon-credit audit engine that is architecturally forbidden from touching a number.*
+* All regulated calculation lives in an AI-free domain layer; extraction is schema-guarded, RAG context is number-redacted, and generated narrative is rejected if it contains a digit.
+* **956 backend + 51 frontend tests passing.**
+* **Stack:** FastAPI, PostgreSQL/pgvector, React, Docker, Alembic.
 
-#### 🩻 [MediSight: Explainable AI Diagnostics](https://github.com/Chandra-Prashant/medisight-xai)
-*Medical diagnostic platform bringing interpretability to deep neural networks.*
-* Fine-tuned DenseNet-121 on ChestX-ray14 and implemented **Grad-CAM** visual heatmaps for clinical explainability.
-* **Stack:** PyTorch, Python, DenseNet-121, Grad-CAM, FastAPI.
+#### 🔧 [autoheal-sre: Self-Healing Code Repair Agent](https://github.com/Chandra-Prashant/autoheal-sre)
+*An agent that fixes failing Python tests, but only ever ships a patch a human approved.*
+* tree-sitter call-graph retrieval (not text chunking) feeds a 4-node LangGraph diagnose→plan→code→verify loop; every patch is verified against the *full* test suite inside a network-isolated Docker sandbox and rejected outright if it touches a test file.
+* PR creation is gated behind explicit human approval — a passing patch never ships itself.
+* **Stack:** Python, LangGraph, tree-sitter, ChromaDB, Docker, FastAPI.
 
-#### 💳 [XAI Microservices Fraud Detection System](https://github.com/Chandra-Prashant/xai-fraud-detection)
-*Real-time fraud scoring engine with explainable AI feature attributions.*
-* Microservices pipeline utilizing **SHAP** for instant feature-level attribution and strict API data contracts.
-* **Stack:** FastAPI, SHAP, Python, Docker, Microservices.
+#### 🌡️ [Lightweight Multispectral Image Fusion](https://github.com/Chandra-Prashant/Lightweight-Multispectral-Image-Fusion)
+*A 117.5K-parameter decoupled denoising + fusion network — the basis for the NPDSM 2026 (Springer LNME) paper.*
+* An inverse-attention gating layer down-weights thermal features exactly where a noise map says the sensor was least reliable.
+* **29.85 dB PSNR, 0.99 SSIM, 237 FPS**, measured directly from the evaluation run.
+* **Stack:** PyTorch, OpenCV, thop.
 
-#### 🛰️ [Satellite Telemetry Anomaly Detection](https://github.com/Chandra-Prashant/opssat_study)
-*Selective classification benchmark on ESA OPS-SAT telemetry — the basis for the UPCON 2026 submission.*
-* Compared XGBoost, Random Forest, and Logistic Regression across 30 seeds with paired Wilcoxon significance tests and an uncertainty-based deferral mechanism for high-reliability predictions.
-* **Stack:** Python, scikit-learn, XGBoost, SciPy.
+#### 🛡️ [Malware Log Synthesis for DFIR](https://github.com/Chandra-Prashant/malware-log-synthesis-dfir)
+*Local, LLM-assisted malware triage — the RV University internship work.*
+* NetworkX causal-graph filtering prunes OS noise from a sandbox log's process tree before anything gets indexed into a local Qdrant store; a local Mistral-7B (Ollama) drafts the triage report, and a hallucination auditor blocks the PDF export if it cites a process that isn't actually in the log.
+* **Stack:** Python, NetworkX, Qdrant, Ollama, Streamlit.
 
-#### 🌍 [Cross-Lingual Stance Detection](https://github.com/Chandra-Prashant/cross-lingual-stance-detection)
-*Climate-change stance detection in Hindi/Bengali from English-only training data — the basis for the ICACECT 2027 submission.*
-* Compared zero-shot translate-test against fine-tuned MuRIL and XLM-RoBERTa on real held-out native test sets (0.664 macro-F1 best result).
-* **Stack:** PyTorch, Hugging Face Transformers, MuRIL, XLM-RoBERTa.
+#### 👤 [Face Bias Study](https://github.com/Chandra-Prashant/face-bais-study)
+*A 52,500-trial fairness audit — accepted at IC3AI 2026 (NIT Jalandhar).*
+* Three face-verification models across 14 intersectional demographic cohorts under five image stressors; a two-way ANOVA confirms a statistically significant cohort × stressor interaction, with VGG-Face's true positive rate collapsing to 2.4% for one cohort under eye occlusion.
+* **Stack:** Python, DeepFace, statsmodels, Grad-CAM.
 
 ---
 
 ### 📈 GitHub Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Chandra-Prashant&show_icons=true&theme=tokyonight&hide_border=true" alt="Prashant's GitHub stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chandra-Prashant&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.hackclub.dev/api?username=Chandra-Prashant&show_icons=true&theme=tokyonight&hide_border=true" alt="Prashant's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=Chandra-Prashant&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
 ---
