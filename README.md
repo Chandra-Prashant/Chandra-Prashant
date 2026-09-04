@@ -16,6 +16,7 @@
 * **Undergraduate:** B.Tech in Computer Engineering — **CGPA: 8.21 / 10**
 * **Prior Credentials:** Diploma in Computer Engineering — **CGPA: 9.66 / 10 (Rank 1 / Gold Medalist)**
 * **Research Focus:** Preparing for competitive MS in Computer Science / AI Research roles.
+* **Hackathons:** Selected — AIsome 2026.
 
 ---
 
@@ -36,7 +37,11 @@
 1. **Decoupled Dual-Phase Network for Multispectral Image Fusion under Sensor Degradation**
    * *Venue:* NPDSM 2026 (MANIT Bhopal), **Springer** Lecture Notes in Mechanical Engineering (LNME). *(Published)*
 2. **Robustness-Fairness Gap in Facial Recognition Architectures Under Stressors**
-   * *Venue:* **DELCON 2026** (Evaluating 52.5K matching trials across demographic and geometric resilience boundaries). *(Under Review)*
+   * *Venue:* **IC3AI 2026**, NIT Jalandhar (18–19 December) — evaluating 52.5K matching trials across demographic and geometric resilience boundaries. *(Accepted)*
+3. **A Selective Classification Framework for High-Reliability Anomaly Detection in Satellite Telemetry**
+   * *Venue:* **UPCON 2026**. *(Under Review)*
+4. **Cross-Lingual Stance Detection for Climate Change Discourse in Hindi and Bengali: Comparing Zero-Shot Transfer and Fine-Tuned Multilingual Transformers**
+   * *Venue:* **ICACECT 2027**. *(Under Review)*
 
 ---
 
@@ -53,7 +58,7 @@
 
 ### 🚀 Featured Repositories
 
-#### 🛡️ [Autonomous Agent Governance Harness](https://github.com/Chandra-Prashant)
+#### 🛡️ [Autonomous Agent Governance Harness](https://github.com/Chandra-Prashant/agent-governance-harness)
 *Runtime interceptor for supervising autonomous LLM tool usage in real time.*
 * Implemented a `shlex`-based shell-command tokenizer to neutralize injection/path-traversal vectors.
 * Feed policy-violation metadata back into the model loop for dynamic self-correction; fully verified via `pytest`.
@@ -64,10 +69,20 @@
 * Fine-tuned DenseNet-121 on ChestX-ray14 and implemented **Grad-CAM** visual heatmaps for clinical explainability.
 * **Stack:** PyTorch, Python, DenseNet-121, Grad-CAM, FastAPI.
 
-#### 💳 [XAI Microservices Fraud Detection System](https://github.com/Chandra-Prashant)
+#### 💳 [XAI Microservices Fraud Detection System](https://github.com/Chandra-Prashant/xai-fraud-detection)
 *Real-time fraud scoring engine with explainable AI feature attributions.*
 * Microservices pipeline utilizing **SHAP** for instant feature-level attribution and strict API data contracts.
 * **Stack:** FastAPI, SHAP, Python, Docker, Microservices.
+
+#### 🛰️ [Satellite Telemetry Anomaly Detection](https://github.com/Chandra-Prashant/opssat_study)
+*Selective classification benchmark on ESA OPS-SAT telemetry — the basis for the UPCON 2026 submission.*
+* Compared XGBoost, Random Forest, and Logistic Regression across 30 seeds with paired Wilcoxon significance tests and an uncertainty-based deferral mechanism for high-reliability predictions.
+* **Stack:** Python, scikit-learn, XGBoost, SciPy.
+
+#### 🌍 [Cross-Lingual Stance Detection](https://github.com/Chandra-Prashant/cross-lingual-stance-detection)
+*Climate-change stance detection in Hindi/Bengali from English-only training data — the basis for the ICACECT 2027 submission.*
+* Compared zero-shot translate-test against fine-tuned MuRIL and XLM-RoBERTa on real held-out native test sets (0.664 macro-F1 best result).
+* **Stack:** PyTorch, Hugging Face Transformers, MuRIL, XLM-RoBERTa.
 
 ---
 
